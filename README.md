@@ -1,0 +1,1 @@
+Part 2 of tackling to Odin Project! Taking it all from the top again, so here is my second attempt at recreating the Google homepage aesthetically, from scratch, using only HTML and CSS I build myself.
