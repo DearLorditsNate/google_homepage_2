@@ -1,18 +1,69 @@
 .container {
     width: 100%;
-    
+
     /* for visual purposes */
     border: 2px solid black;
+}
+
+header {
+    margin-bottom: 200px;
+}
+
+footer {
+    margin-top: 400px;
+}
+
+.footer {
+    width: 100%;
+    background-color: red;
 }
 
 .logo {
     display: block;
     margin: auto;
-    width: 50%;
+    width: 100%;
+    clear: both;
+
+    /* for visual purposes */
+    border: 1px solid blue;
 }
 
 .logo img {
+    display: block;
+    margin: auto;
     height: 92px;
     width: 272px;
+
+    /* for visual purposes */
+    border: 1px solid red;
 }
 
+.searchbox input{
+    display: block;
+    margin: auto;
+}
+
+.buttons{
+    text-align: center;
+}
+
+button {
+    display: inline-block;
+}
+
+.nav-left, .nav-right {
+    display: inline-block;
+    padding: 20px;
+}
+
+.nav-left a, .nav-right a {
+    padding: 10px;
+}
+
+.nav-left {
+    float: left;
+}
+
+.nav-right {
+    float: right;
+}
