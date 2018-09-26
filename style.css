@@ -65,7 +65,7 @@ button {
     box-sizing: border-box;
 }
 
-.nav-left li, .nav-right li {
+.nav-left a, .nav-right a {
     display: inline-block;
     box-sizing: border-box;
     padding: 5px 10px;
