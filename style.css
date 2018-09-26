@@ -6,6 +6,8 @@
     border: 2px solid black;
 }
 
+/* Header and Footer */
+
 header {
     margin-bottom: 200px;
 }
@@ -21,6 +23,8 @@ header {
      /* visual */
      border: 2px solid orange;
 }
+
+/* Image, Searchbar, and Buttons */
 
 .logo {
     display: block;
@@ -55,9 +59,15 @@ button {
     display: inline-block;
 }
 
-.nav-left, .nav-right {
-    /* display: inline-block; */
-    padding: 20px;
+.spacer {
+    display: block;
+    height:400px;
+}
+
+/* Navigation Bars */
+.nav-right {
+    float: right;
+    box-sizing: border-box;
 }
 
 .nav-left {
@@ -65,18 +75,13 @@ button {
     box-sizing: border-box;
 }
 
+.nav-left, .nav-right {
+    /* display: inline-block; */
+    padding: 20px;
+}
+
 .nav-left a, .nav-right a {
     display: inline-block;
     box-sizing: border-box;
     padding: 5px 10px;
-}
-
-.nav-right {
-    float: right;
-    box-sizing: border-box;
-}
-
-.spacer {
-    display: block;
-    height:400px;
 }
