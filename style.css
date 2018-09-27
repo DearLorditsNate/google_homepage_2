@@ -5,6 +5,7 @@ html, .body {
 
 .container {
     position: relative;
+    font-family: arial,sans-serif;
 }
 
 /* Header and Footer */
@@ -42,11 +43,22 @@ footer {
     margin: auto;
     height: 92px;
     width: 272px;
+    padding-bottom: 20px;
+}
+
+.searchbox {
+    padding-bottom: 20px;
 }
 
 .searchbox input{
     display: block;
     margin: auto;
+    width: 584px;
+    height: 44px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    border-radius: 2px;
+    border: none;
+    background: #fff;
 }
 
 .buttons{
@@ -55,15 +67,24 @@ footer {
 
 button {
     display: inline-block;
-}
-
-.spacer {
-    display: block;
-    height:400px;
+    height: 36px;
+    line-height: 27px;
+    text-align: center;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
 }
 
 .body {
-    padding-bottom: 400px;
+    padding-bottom: 300px;
 }
 
 /* Navigation Bars */
@@ -84,4 +105,25 @@ button {
     padding: 5px 10px;
     position: relative;
     bottom: 31px;
+    font-size: 13px;
+    opacity: 0.75;
+}
+
+.sign-in {
+    border: 1px solid #2070f5;
+    font-weight: bold;
+    outline: none;
+    background: -webkit-linear-gradient(top,#2070f5,#2070f5);
+    color: #fff;
+    line-height: 28px;
+    padding: 0 12px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.grid {
+    height: 25px;
+    width: 25px;
+    position: relative;
+    top: 8px;
 }
